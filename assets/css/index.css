@@ -68,12 +68,15 @@ div #contact{
 div #img{
   text-align: center;
 }
+.main{
+  margin: 0 auto;
+  width: 850px;
+  }
 .main h1{
   text-align: center;
 }
 .main h3{
   text-align: left;
-  margin:0 400px 0 400px;
 }
 .kat h2{
   float: left;
