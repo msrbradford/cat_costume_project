@@ -18,44 +18,49 @@ body {
   float: right;
 }
 h1{
-  font-family:PT Sans Narrow Bold;
-  font-size:1.87em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size:1.875em;
   color:#323232
 }
 h2{
-  font-family:PT Sans Narrow Bold;
-  font-size: :1.5em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight:bold;
+  font-size: 1.5em;
   color:#00897f
 }
 h3{
-  font-family: PT serif regular;
+  font-family: 'PT Serif', serif
   font-size: 1em;
   color: #323232;
   line-height: 2em;
 }
 p{
-  font-family: PT Serif regular;
+  font-family: 'PT Serif', serif
   font-size: :.875em;
   line-height: 1.75em;
   color: #323232;
 }
  div map{
-  font-family: PT serif bold;
+  font-family: 'PT Serif', serif
+  font-weight:bold;
   font-size: 1em;
   color: #f26522;
 }
 nav h1{
-  font-family: PT Sans Narow Bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
   font-size: 1.5em;
   color:#323232;
 }
 nav p{
-  font-family: PT Sans Regular;
+  font-family: 'PT Sans', sans-serif
   font-size: .9em;
   color: #323232
 }
 footer{
-  font-family: PT Sans Narrow bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
   font-size: 1.25em;
   color: #323232;
 }
