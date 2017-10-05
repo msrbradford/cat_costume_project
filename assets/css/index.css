@@ -1,5 +1,8 @@
-body {
-  margin: 0;
+body * {
+  margin:0;
+  width:100%;
+
+
 }
 
 
@@ -10,85 +13,99 @@ body {
 /* On devices wider than 940px */
 @media(min-width: 940px) {
 }
- ul li{
-  list-style-type:none;
-  display:inline;
-  margin:0;
-  padding:0;
-  float: right;
-}
 h1{
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   font-size:1.875em;
   color:#323232
+  margin:0px 150px 45px 50px
 }
 h2{
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight:bold;
   font-size: 1.5em;
-  color:#00897f
+  color:#00897f;
+  text-transform: uppercase;
 }
 h3{
-  font-family: 'PT Serif', serif
+  font-family: 'PT Serif', serif;
   font-size: 1em;
   color: #323232;
   line-height: 2em;
 }
 p{
-  font-family: 'PT Serif', serif
+  font-family: 'PT Serif', serif;
   font-size: :.875em;
   line-height: 1.75em;
   color: #323232;
 }
- div map{
-  font-family: 'PT Serif', serif
+ a{
+  font-family: 'PT Serif', serif;
   font-weight:bold;
   font-size: 1em;
   color: #f26522;
+}
+ nav{
+  text-align: center;
+}
+ nav ul{
+  display: inline-block;
+  list-style: none;
 }
 nav h1{
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   font-size: 1.5em;
   color:#323232;
+  display:inline;
 }
-nav p{
-  font-family: 'PT Sans', sans-serif
-  font-size: .9em;
-  color: #323232
+
+.cats{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 100px;
 }
-footer{
+.cats img{
+  border-radius: 50%;
+  text-align:center;
+  width:30%;
+  height:30%;
+}
+.get{
+  text-align: center;
+}
+.main-content{
+  margin: 0 auto;
+  width: 850px;
+  }
+.main-content h1{
+  text-align: center;
+}
+.main-content h3{
+  text-align: left;
+}
+#content{
+  display:inline-block;
+  margin: 0 auto;
+  width:100%;
+  padding:60px;
+}
+#content h2{
+  text-align: center;
+}
+.box-content{
+  background-color: #d6d5d5;
+  width:40vh;
+  padding:30px;
+  margin: 30px;
+  display:inline-block;
+
+}
+footer h1{
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   font-size: 1.25em;
   color: #323232;
-}
-div img{
-  border-radius: 50%;
-}
-div #contact{
-  text-align: center;
-}
-div #img{
-  text-align: center;
-}
-.main{
-  margin: 0 auto;
-  width: 850px;
-  }
-.main h1{
-  text-align: center;
-}
-.main h3{
-  text-align: left;
-}
-.kat h2{
-  float: left;
-  border-style: hidden;
-}
-.mavis h2{
-  float: right;
-    border-style: hidden;
-
+  background-color: #00897f;
+  text-align:center;
 }
