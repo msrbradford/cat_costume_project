@@ -1,11 +1,7 @@
 body * {
   margin:0;
   width:100%;
-
-
 }
-
-
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
@@ -46,11 +42,11 @@ p{
   color: #f26522;
 }
  nav{
-  text-align: center;
+  display: inline-block;
 }
  nav ul{
-  display: inline-block;
   list-style: none;
+  text-align: right;
 }
 nav h1{
   font-family: 'PT Sans Narrow', sans-serif;
