@@ -14,7 +14,6 @@ h1{
   font-weight: bold;
   font-size:1.875em;
   color:#323232
-  margin:0px 150px 45px 50px
 }
 h2{
   font-family: 'PT Sans Narrow', sans-serif;
@@ -41,34 +40,26 @@ p{
   font-size: 1em;
   color: #f26522;
 }
- nav{
-  display: inline-block;
-}
- nav ul{
-  list-style: none;
-  text-align: right;
-}
-nav h1{
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  color:#323232;
-  display:inline;
-}
 
-.cats{
+nav h1{
+ font-family: 'PT Sans Narrow', sans-serif;
+ font-weight: bold;
+ font-size: 1.5em;
+ color:#323232;
+ display: inline-block;
+ width:300px;
+}
+nav p{
+  font-family:'PT Sans ', sans-serif;
+  font-size: .9em;
+  color: #323232;
   display: inline-block;
-  margin: 0 auto;
-  padding: 10px 100px;
+  width:100px;
 }
-.cats img{
-  border-radius: 50%;
-  text-align:center;
-  width:30%;
-  height:30%;
-}
-.get{
-  text-align: center;
+.links{
+  display: inline-block;
+  float:right;
+  width: 300px;
 }
 .main-content{
   margin: 0 auto;
@@ -76,32 +67,74 @@ nav h1{
   }
 .main-content h1{
   text-align: center;
+  margin: 80px auto 45px auto;
 }
 .main-content h3{
   text-align: left;
+  margin-bottom: 80px;
 }
 #content{
-  display:inline-block;
-  margin: 0 auto;
-  width:100%;
+  display:inline;
+  margin: 0 200px 0px 200px;
   padding:60px;
 }
 #content h2{
   text-align: center;
+  margin-bottom: 35px;
 }
 .box-content{
   background-color: #d6d5d5;
-  width:40vh;
+  width:300px;
   padding:30px;
   margin: 30px;
   display:inline-block;
-
 }
+.cats{
+  display: inline-block;
+  margin: auto 200px auto 200px;
+}
+.cats img{
+  border-radius: 50%;
+  width:250px;
+  padding: 26.5px;
+}
+#information{
+  background-color: #d6d5d5;
+  margin-top: 80px;
+  text-align: center;
+}
+.get h1{
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+.info{
+  background-color: white;
+  display:inline-block;
+  width:300px;
+  padding:30px;
+  margin: 0px 30px 80px 30px;
+  vertical-align: top;
+}
+.info h3{
+  text-align: left;
+}
+.address, .orange{
+  display:inline-block;
+  vertical-align: top;
+}
+.address{
+  width: 100px;
+}
+.orange{
+  width: 150px;
+}
+
 footer h1{
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   font-size: 1.25em;
-  color: #323232;
+  color: white;
   background-color: #00897f;
   text-align:center;
+  padding:62.5px;
 }
